@@ -3,14 +3,17 @@
    $('.card').fadeIn();
    anchorSmoothScroll();
 
-   //WordPress Card Flip
-   $("#cardWordpress").on('flip:done',function(){
-     if($("#cardWordpress").data("flip-model").isFlipped){ $('#cardWordpress .back').css('display','block'); }
-     else{ $('#cardWordpress .back').css('display','none'); }
-   });
-   $("#cardWordpress").flip({ axis: 'x', trigger: 'hover', autoSize:true });
+   //WordPress .flipcard Flip
+   $(".flipcard").on('flip:done',function(){
 
-   
+     
+
+    // if($(".flipcard").data("flip-model").isFlipped){ $('.flipcard .back').css('display','block'); }
+    // else{ $('.flipcard .back').css('display','none'); }
+   });
+   $(".flipcard").flip({ axis: 'x', trigger: 'click', autoSize:true });
+
+
  });
 
 function anchorSmoothScroll(){
