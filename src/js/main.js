@@ -2,6 +2,13 @@
    $('.jumbotron').fadeIn();
    $('.card').fadeIn();
    anchorSmoothScroll();
+
+
+   $("#card0").flip({ axis: 'x', trigger: 'hover' });
+   $("#card1").flip({ axis: 'x', trigger: 'hover' });
+   $("#card2").flip({ axis: 'x', trigger: 'hover' });
+   $("#card3").flip({ axis: 'x', trigger: 'hover' });
+
  });
 
 function anchorSmoothScroll(){
