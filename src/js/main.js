@@ -3,12 +3,14 @@
    $('.card').fadeIn();
    anchorSmoothScroll();
 
+   //WordPress Card Flip
+   $("#cardWordpress").on('flip:done',function(){
+     if($("#cardWordpress").data("flip-model").isFlipped){ $('#cardWordpress .back').css('display','block'); }
+     else{ $('#cardWordpress .back').css('display','none'); }
+   });
+   $("#cardWordpress").flip({ axis: 'x', trigger: 'hover', autoSize:true });
 
-   $("#card0").flip({ axis: 'x', trigger: 'hover' });
-   $("#card1").flip({ axis: 'x', trigger: 'hover' });
-   $("#card2").flip({ axis: 'x', trigger: 'hover' });
-   $("#card3").flip({ axis: 'x', trigger: 'hover' });
-
+   
  });
 
 function anchorSmoothScroll(){
