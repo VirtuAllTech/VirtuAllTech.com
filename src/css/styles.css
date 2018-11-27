@@ -33,14 +33,16 @@ h5 {
   background-color: #14374c; }
 
 .back {
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: 15%;
+  margin-top: 15%; }
 
 .card {
   display: none;
   border: none; }
 
 .cardcol {
-  height: 200px; }
+  height: 100px; }
 
 .navbar {
   position: fixed;

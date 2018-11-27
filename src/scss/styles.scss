@@ -41,6 +41,8 @@ h5 {
 }
 .back{
   font-weight: bold;
+  margin-left: 15%;
+  margin-top: 15%;
 }
 .card {
   display: none;
@@ -48,7 +50,7 @@ h5 {
 }
 
 .cardcol {
-  height: 200px;
+  height: 100px;
 }
 
 .navbar {
@@ -85,7 +87,6 @@ a {
   color: white;
   text-decoration: none;
 }
-// .back{display:none;}
 
 .card-title {
   position: absolute;
