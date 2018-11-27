@@ -5,9 +5,6 @@
 
    //WordPress .flipcard Flip
    $(".flipcard").on('flip:done',function(){
-
-     
-
     // if($(".flipcard").data("flip-model").isFlipped){ $('.flipcard .back').css('display','block'); }
     // else{ $('.flipcard .back').css('display','none'); }
    });
