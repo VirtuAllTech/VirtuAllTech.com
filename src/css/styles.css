@@ -135,7 +135,7 @@ h5 {
   font-family: 'logoFont'; }
 
 .jumbotron {
-  background-color: #fff;
+  background-color: #eeeeee;
   font-family: 'logoFont';
   display: none;
   opacity: 50%; }
@@ -167,7 +167,8 @@ h5 {
     text-align: center; } }
 
 .flipcard {
-  cursor: pointer; }
+  cursor: pointer;
+  background-color: #eeeeee; }
 
 .nav-link {
   color: lightblue;
