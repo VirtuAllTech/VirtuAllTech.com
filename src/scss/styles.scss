@@ -156,7 +156,7 @@ h5 {
 }
 
 .jumbotron {
-  background-color: rgb(238, 238, 238);
+  background-color: #fff;
   font-family: 'logoFont';
   display: none;
   opacity: 50%;
@@ -194,7 +194,6 @@ h5 {
 }
 .flipcard{
   cursor: pointer;
-  background-color: rgb(238, 238, 238)
 
 }
 .nav-link {
@@ -230,4 +229,22 @@ a {
   bottom: 0;
   right: 0;
   width: 100%;
+}
+@media screen and (max-width:900px) {
+
+}
+@media screen and (min-width:900px) {
+
+}
+@media screen and (min-width:1000px) {
+
+}
+@media screen and (min-width:1200px) {
+
+}
+@media screen and (min-width:1400px) {
+
+}
+@media screen and (min-width:1800px) {
+
 }
