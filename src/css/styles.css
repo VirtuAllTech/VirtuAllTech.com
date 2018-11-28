@@ -135,10 +135,9 @@ h5 {
   font-family: 'logoFont'; }
 
 .jumbotron {
-  background-color: white;
+  background-color: #fff;
   font-family: 'logoFont';
   display: none;
-  padding-top: 140px;
   opacity: 50%; }
 
 .bg-primary {
@@ -199,49 +198,3 @@ a {
   bottom: 0;
   right: 0;
   width: 100%; }
-
-@media screen and (max-width: 900px) {
-  #meet_the_team .row {
-    display: block; }
-  .team_pic {
-    position: relative; }
-  .card-title {
-    position: relative; }
-  .team-card {
-    height: auto;
-    width: auto; } }
-
-@media screen and (min-width: 900px) {
-  .team_pic {
-    height: 70%; }
-  .team-card {
-    height: 310px;
-    width: auto; } }
-
-@media screen and (min-width: 1000px) {
-  .team_pic {
-    height: 75%; }
-  .team-card {
-    height: 310px;
-    width: auto; } }
-
-@media screen and (min-width: 1200px) {
-  .team_pic {
-    height: 80%; }
-  .team-card {
-    height: 390px;
-    width: auto; } }
-
-@media screen and (min-width: 1400px) {
-  .team_pic {
-    height: 85%; }
-  .team-card {
-    height: 500px;
-    width: auto; } }
-
-@media screen and (min-width: 1800px) {
-  .team_pic {
-    height: 90%; }
-  .team-card {
-    height: 530px;
-    width: auto; } }
