@@ -13,7 +13,7 @@
    });
    $(".flipcard").flip({
      axis: 'x',
-     trigger: 'click',
+     trigger: 'hover',
      autoSize: true
    });
 
