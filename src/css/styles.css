@@ -7,7 +7,13 @@ body {
   src: url("fonts/logoFont.ttf"); }
 
 #team {
-  background: #eee !important; }
+  background: white; }
+
+#team .card {
+  background-color: #eee !important; }
+
+#team .backside {
+  background-color: #eee !important; }
 
 .btn-primary:hover,
 .btn-primary:focus {
