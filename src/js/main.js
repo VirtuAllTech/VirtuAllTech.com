@@ -12,7 +12,7 @@
      // else{ $('.flipcard .back').css('display','none'); }
    });
    $(".flipcard").flip({
-     axis: 'x',
+     axis: 'y',
      trigger: 'hover',
      autoSize: true
    });
