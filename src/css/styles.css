@@ -81,6 +81,11 @@ section .section-title {
   z-index: 2;
   margin-bottom: 30px; }
 
+.scrollPad:before {
+  height: 50px;
+  display: block;
+  content: ''; }
+
 .backside {
   position: absolute;
   top: 0;
